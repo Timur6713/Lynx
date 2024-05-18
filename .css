@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    color: white;
+}
+.Purple{
+    color:blueviolet;
+    display:inline;
+}
+#Red{
+    color: red;
+    display:inline;
+    margin-left: 0px;
+}
+.inl{
+    display:inline;
+}
