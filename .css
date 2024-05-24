@@ -1,6 +1,7 @@
 body{
     background-color: black;
     color: white;
+    font-size: larger;
 }
 .Purple{
     color:blueviolet;
@@ -13,4 +14,17 @@ body{
 }
 .inl{
     display:inline;
+}
+.person{
+    width: 200px;
+    height: 300px;
+    text-align: center;
+}
+.title{
+    text-align: center;
+}
+.icon{
+    width: 300px;
+    height: 200px;
+    text-align: center;
 }
