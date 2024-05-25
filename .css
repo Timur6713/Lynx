@@ -21,9 +21,12 @@ body{
     text-align: center;
 }
 .master{
+    opacity: 1;
     width: 200px;
     height: 300px;
     text-align: center;
+    transition: 3s;
+
 }
 .title{
     text-align: center;
@@ -32,4 +35,15 @@ body{
     width: 300px;
     height: 200px;
     text-align: center;
+}
+.master:hover{
+    opacity: 0;
+    width: 200px;
+    height: 300px;
+    text-align: center;
+    transition: 3s;
+}
+.pelmen{
+    height: 60vh;
+    z-index: 0;
 }
