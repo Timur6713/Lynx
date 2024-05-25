@@ -46,4 +46,27 @@ body{
 .pelmen{
     height: 60vh;
     z-index: 0;
+    animation: circle 2s linear;
+  animation-fill-mode: backwards;
+  animation-delay: .5s;
 }
+@keyframes circle{
+    25% {
+    transform:rotate(90deg);
+    }
+    50% {
+    transform:rotate(180deg);
+    }
+    75% {
+    transform:rotate(270deg);
+    }
+    100% {
+    transform:rotate(360deg);
+    }
+  }
+  .cicle{
+    animation-name: circle;
+    animation-fill-mode: backwards;
+    animation-duration: 2s;
+    animation-delay: 0.5s;
+  }
